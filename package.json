@@ -1,0 +1,22 @@
+{
+  "name": "node-googlesheet",
+  "version": "0.1.0",
+  "description": "## Install ``` npm install google-spreadsheet@2.0.3 ```",
+  "main": "spreadsheet.js",
+  "scripts": {
+    "start": "node spreadsheet.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rakkant/node-googlesheet.git"
+  },
+  "author": "rakkant",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rakkant/node-googlesheet/issues"
+  },
+  "homepage": "https://github.com/rakkant/node-googlesheet#readme",
+  "dependencies": {
+    "google-spreadsheet": "^2.0.5"
+  }
+}
