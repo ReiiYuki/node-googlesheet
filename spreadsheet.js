@@ -1,9 +1,11 @@
+require('dotenv').config()
+
 var GoogleSpreadsheet = require('google-spreadsheet');
-var creds = require('./client_secret.json');
+var creds = require(process.env.CLIENT_CREDENTIAL);
 console.time()
 
 // Create a document object using the ID of the spreadsheet - obtained from its URL.
-var doc = new GoogleSpreadsheet('1i3ftftO09G9DDqcwaHzuHdSSRePTSEN_2RQRDnqVhk0');
+var doc = new GoogleSpreadsheet(process.env.SPREAD_SHEET_ID);
 
 // Authenticate with the Google Spreadsheets API.
 doc.useServiceAccountAuth(creds, function (err) {

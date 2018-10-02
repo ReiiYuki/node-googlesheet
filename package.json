@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/rakkant/node-googlesheet#readme",
   "dependencies": {
+    "dotenv": "^6.0.0",
     "google-spreadsheet": "^2.0.5"
   }
 }
