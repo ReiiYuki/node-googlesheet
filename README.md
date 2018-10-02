@@ -2,7 +2,7 @@
 
 ## Install
 ```
-npm install google-spreadsheet@2.0.3
+npm install
 ```
 
 ## Setup Credetial
